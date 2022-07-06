@@ -4,7 +4,9 @@ This repository contains instructions to setup a python workspace on your comput
 
 The python workspace is just a simple python virtualenv setup.
 
-## Quick start
+## The Setup
+
+You need to run all these steps to setup a python workspace.
 
 Step 1: Clone this repository
 
@@ -45,4 +47,20 @@ Step 4: Install required dependencies
 
 ```
 $ pip install -r requirements.txt
+```
+
+## Activating Workspace
+
+You need activate the virtualenv whenever you open a new terminal or command-prompt.
+
+To do that, cd to the python-workspace directory and perform step-3 from above.
+
+## Verify Your Workspace
+
+Run the following command to verify your python-workspace is setup correctly.
+
+```
+$ python verify.py
+...
+All is well!
 ```
